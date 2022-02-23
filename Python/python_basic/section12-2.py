@@ -89,3 +89,6 @@ with conn:
         for line in conn.iterdump():
             f.write('%s\n' % line)
         print('Dump Print Complete')
+
+
+# f.close(), conn.close (with 문 때문에 자동으로 close)

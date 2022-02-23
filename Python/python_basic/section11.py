@@ -93,4 +93,4 @@ print(xlsx.shape) # 행, 열
 # 엑셀 or CSV 다시 쓰기
 
 xlsx.to_excel('./resource/result.xlsx', index=False)
-xlsx.to_cvs('./resource/result.xlsx', index=False)
+xlsx.to_csv('./resource/result.xlsx', index=False)
